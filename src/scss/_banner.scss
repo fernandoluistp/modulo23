@@ -1,0 +1,90 @@
+@media (min-width: $media-query-large) {
+  
+    .carousel-caption > h3 {
+      color: #0098da;
+      font-size: 3.8vw;
+      font-weight: 700;
+      text-align: left;
+      margin: 0;
+      line-height: 3.2vw;
+      width: 25vw;
+      letter-spacing: -0.2rem;
+    }
+  
+    .internas.carousel-caption > h3 {
+      width: 70%;
+    }
+  
+    .carousel-caption > p {
+      width: 28vw;
+      color: #ffffff;
+      font-size: 1.2rem;
+      text-align: left;
+      font-weight: 300;
+      align-items: center;
+      letter-spacing: -0.02rem;
+      line-height: 1.4rem;
+    }
+  
+  }
+
+  
+  @media (max-width: $media-query-large){
+
+    .carousel-caption {
+      top: 0;
+      bottom: initial!important;
+      display: flex!important;
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 100%;
+      justify-items: center;
+  }
+    .carousel-caption > h3{
+            /* height: 40vw; */
+      width: 100%;
+      font-size: 9vw;
+      font-weight: 600;
+      color: #0098da;
+      line-height: 7vw;
+    }
+
+    .carousel-caption > p{
+        width: 40vw;
+        color: #ffffff;
+        font-size: 4vw;
+        text-align: left;
+        line-height: 4vw;
+       /* background: rgba(255,255,255,0.75);*/
+    }
+
+}
+  
+  @media (max-width: $media-query-medium) {
+
+    .carousel-caption > h3 {
+      width: 75vw;
+      font-size: 11vw;
+      font-weight: 600;
+      color: #0098da;
+      line-height: 8vw;
+    }
+  
+    .carousel-caption {
+      top: 0;
+      bottom: initial !important;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 100%;
+      justify-items: center;
+    }
+  
+    .carousel-caption > p {
+      width: 75vw;
+      color: #ffffff;
+      font-size: 7vw;
+      text-align: left;
+      line-height: 7vw;
+    }
+  }
